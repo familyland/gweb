@@ -1,0 +1,32 @@
+.header {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 13px 0;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+}
+.headerInr {
+    position: relative;
+}
+.headerInr p:hover {
+    cursor: pointer
+}
+.headerInr p {
+    font-size: 18px;
+    color: #555;
+    font-weight: 100;
+    padding: 0 16px 0 0;
+    position: relative;
+}
+.headerItems {
+    display: none
+}
+
+.headerArrow {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+

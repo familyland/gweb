@@ -1,0 +1,32 @@
+.dark, .light {
+    width: 85px;
+    height: 33px;
+    border-radius: 30px;
+    position: absolute;
+    top:7px;
+    right: 60px;
+    border: none;
+    font-family: "playfiar Display", serif;
+}
+.dark {
+    background: #fff;
+    color: #000;
+}
+.light {
+    background: #000;
+    color: #fff;
+}
+
+.talk {
+    cursor: pointer;
+    outline: 0;
+    position: fixed;
+    bottom: 40px;
+    right: 50px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    background: #000
+}

@@ -1,0 +1,43 @@
+.i {
+    position: relative;
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.i ul {
+    position: relative;
+    margin: 10px 0 0 0;
+}
+
+.i ul li {
+    display: inline-block;
+}
+
+.i ul li a {
+    margin: 0 36px 0 0;
+    padding: 15px 0;
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    background: -webkit-linear-gradient(to right, #000, #555, #333);
+    background: linear-gradient(to right, #000, #555, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: .3px
+}
+.line {
+    height: 1px;
+    width: 0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    position: absolute;
+    transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+}
+.i .parent {
+    display: inline-block;
+    position: relative
+}
